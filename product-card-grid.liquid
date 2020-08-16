@@ -9,7 +9,7 @@
                 data-image>
 */ 
 
-// And replace with.
+// And replace with (or just add the <div> above the <img> and add the two lines after it)
 
           <div class="product-card__hover-image">
               <img id="{{ img_id }}"
@@ -22,3 +22,5 @@
                     data-image>
               <img class="product-hover_image" src="{{ product.images[1] | img_url: '450x450' }}" alt="{{ product.images[1].alt | escape }}" />
           </div>
+
+// the main <img> tag is unchanged from the Debut theme, no need to change it.
