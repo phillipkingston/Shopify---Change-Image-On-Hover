@@ -13,3 +13,8 @@ TODOs:
 - Error handling if there are not more than 1 images per product
 - Dynamic sizing of the swap image to match the image sizing setup in the theme, currently its hardcoded e.g. 450x450 but you can change to what you want in the meantime
 - Use more obscure class names so as to not conflict with other Shopify plugins.
+
+Observations:
+
+- Why are people charging $4.99 per month for a plugin that does this? 6 lines of code.
+- Many of the guides on Stack Overflow, etc do not work because they're trying to hook into very busy DOM elements that have a lot of javascript from Shopify and are getting confused finding two clean hover events to harness for the image swap.
