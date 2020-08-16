@@ -6,7 +6,7 @@ This is very simple to implement:
 
 0) Login to Shopify, Go to Themes -> Actions -> Edit Code
 1) Put the CSS into the theme.scss.liquid file in the Assets folder, make any changes you want.
-2) Make a few lines of insertions into the product-card-grid.liquid file in the Snippets folder and adjust product.images[1] with whatever array index you want as the swap image on hover. Note this counts from 0 as it is an arrage of images linked to the product in Shopify. If you want the last image in the image array, you can use product.images.last
+2) Make a few lines of insertions into the product-card-grid.liquid file in the Snippets folder and adjust product.images[1] with whatever array index you want as the swap image on hover. Note this counts from 0 as it is an array of images linked to the product in Shopify. If you want the last image in the image array, you can use product.images.last
 
 TODOs:
 
