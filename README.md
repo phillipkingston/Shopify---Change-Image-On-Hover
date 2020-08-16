@@ -11,3 +11,4 @@ TODOs:
 
 - Error handling if there are not more than 1 images per product
 - Dynamic sizing of the swap image to match the image sizing setup in the theme
+- Use more obscure class names so as to not conflict with other Shopify plugins.
